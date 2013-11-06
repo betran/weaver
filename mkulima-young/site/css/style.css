@@ -65,3 +65,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c900', end
 	padding: 3px 5px;
 	float: left;
 }
+
+.top-title{
+	color:#002b3e;
+	background:#cccccc;
+	display:inline-block;
+	padding:5px 10px;
+	margin:10px 0;
+	}
+.carousel-content{
+	width:19%;
+	float:left;
+	margin:10px 3%;
+	}

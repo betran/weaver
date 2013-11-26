@@ -1,6 +1,6 @@
-body{
-	background:#f8f8f8;
-	}
+body {
+	background: #f8f8f8;
+}
 #wrapper {
 	padding: 0px;
 	width: 100%;
@@ -15,14 +15,14 @@ body{
 }
 .logo {
 	height: 68px;
-	width: 145px;
-	background: url(../img/sprite.png);
+	max-width: 145px;
 	display: block;
+	padding:5px;
 }
-#main-nav {
+/*#main-nav {
 	width: 59%;
 	padding: 0;
-}
+}*/
 #main-nav ul li {
 	float: left;
 	text-align: center;
@@ -39,10 +39,10 @@ body{
 	color: #999999;
 	display: block;
 }
-#search {
+/*#search {
 	width: 24%;
 	padding: 5px 0;
-}
+}*/
 #search input[type=text] {
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -68,104 +68,218 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c900', end
 	padding: 3px 5px;
 	float: left;
 }
-
-.top-title{
-	color:#002b3e;
-	background:#cccccc;
-	display:inline-block;
-	padding:5px 10px;
-	margin:10px 0;
-	}
-.carousel-content{
-	width:20%;
-	float:left;
-	margin:10px 1% 10px 3%;
-	background:#fff;
-	padding:10px 1%;
+.top-title {
+	color: #002b3e;
+	background: #cccccc;
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 10px 0;
+}
+.carousel-content {
+	float: left;
+	background: #fff;
 	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.4);
--moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.4);
-box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.4);
+	box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.4);
+}
+.carousel-content img {
+	width: 100%;
+}
+.carousel-content h4 {
+	font-size: 14px;
+	color: #666666;
+}
+.carousel-content p {
+	font-size: 11px;
+	color: #333333;
+}
+.carousel-content span {
+	color: #666666;
+	font-size: 11px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.carousel-content a {
+	font-size: 14px;
+	color: #869608;
+}
+#my-main-carousel .carousel-control {
+	background: none;
+}
+.sprite-chevron-left {
+	width: 17px;
+	height: 70px;
+	display: block;
+	background: url(../img/sprite.png) -154px 0px;
+	margin-top: 70px;
+}
+.sprite-chevron-right {
+	width: 17px;
+	height: 70px;
+	display: block;
+	background: url(../img/sprite.png) -181px 0px;
+	float: right;
+	margin-top: 70px;
+}
+#footer-nav{
+	padding-bottom:20px;
+	padding-top:20px;
 	}
-.carousel-content img{
-	width:100%;
-	}
-.carousel-content h4{
-	font-size:14px;
-	color:#666666;
-	}
-.carousel-content p{
-	font-size:11px;
-	color:#333333;
-	}
-.carousel-content span{
-	color:#666666;
-	font-size:11px;
-	color:#333333;
-	text-transform:uppercase;
-	}
-.carousel-content a{
-	font-size:14px;
-	color:#869608;
-	}
-
-#my-main-carousel .carousel-control{
+#footer-nav li {
+	float: left;
+}
+#footer-nav li a {
+	color: #9eab39;
+	font-size: 12px;
+	border-right: 1px #9eab39 solid;
+	padding: 0 9px;
+}
+#footer-nav li:last-child a {
+	border: none;
+}
+.champs-readmore {
+	background: #9cae0a; /* Old browsers */
+	background: -moz-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9cae0a), color-stop(100%, #bdd500)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #9cae0a 0%, #bdd500 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', endColorstr='#bdd500', GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	color: #fff;
+	padding: 5px 10px;
+	float: right;
+	font-size: 11px;
+	display:inline-block;
+}
+#champs img {
+	width: 98%;
+	height: auto;
+	border: #cccccc 5px solid;
+}
+#champs h5 {
+	color: #9eab39;
+	font-size: 18px;
+}
+.navbar-default, .navbar{
+	border:none;
+	padding:0;
+	margin:0;
+	box-shadow:none;
 	background:none;
 	}
-	
-.sprite-chevron-left{
-	width:17px;
-	height:70px;
-	display:block;
-	background:url(../img/sprite.png) -154px 0px;
-	margin-top:70px;
+.carousel-inner{
+	padding-left:15px;
 	}
-	
-.sprite-chevron-right{
-	width:17px;
-	height:70px;
-	display:block;
-	background:url(../img/sprite.png) -181px 0px;
-	float:right;
-	margin-top:70px;
-	}
-	
-#footer-nav li{
-	float:left;
+@media (max-width:767px) {
+ .carousel-content {
+ width:40%;
+ margin:10px 2% 10px 4%;
+ padding:10px 2%;
 }
-	
-#footer-nav li a{
-	color:#9eab39;
-	font-size:12px;
-	border-right:1px #9eab39 solid;
-	padding:0 9px;
+#champs > div{
+	margin-bottom:40px;
+	overflow:hidden;
 	}
-#footer-nav li:last-child a{
+#main-nav ul.navbar-nav li{
 	border:none;
-}
+	border-bottom:1px solid rgb(153, 153, 153);
+		width:95%;
+	margin-left:5%;
+	}
+#main-nav ul.navbar-nav li a{
+	display:block;
 
-.champs-readmore{
-	background: #9cae0a; /* Old browsers */
-background: -moz-linear-gradient(top,  #9cae0a 0%, #bdd500 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9cae0a), color-stop(100%,#bdd500)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #9cae0a 0%,#bdd500 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #9cae0a 0%,#bdd500 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #9cae0a 0%,#bdd500 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #9cae0a 0%,#bdd500 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', endColorstr='#bdd500',GradientType=0 ); /* IE6-9 */
--webkit-border-radius: 16px;
--moz-border-radius: 16px;
-border-radius: 16px;
-color:#fff;
-padding:5px 10px;
-float:right;
-font-size:11px;
 }
-
-#champs img{
-	width:100%;
+#bs-example-navbar-collapse-1{
+	z-index:1;
+	min-width:320px;
 	height:auto;
 	}
-#champs h5{
-	color:#9eab39;
-	font-size:18px;
+	.navbar-collapse.in {
+		overflow:visible;
+}
+.navbar-header{
+	margin-top:15px;
 	}
+#search form{
+	display:block;
+	width:76%;
+	margin:10px 12% 40px 12%;
+	}
+.top-title{
+	margin-left:10px;
+	}
+.row {
+	margin:0;
+}
+#footer-nav li a{
+	font-size: 9px;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+	.navbar-collapse .navbar-nav.navbar-right:last-child {
+		margin:0;
+}
+	.nav > li > a{
+		padding:10px 5px;
+		}
+.carousel-content {
+	width: 20%;
+	margin: 10px 1% 10px 3%;
+	padding: 10px 1%;
+}
+.logo {
+    height: 68px;
+    width: 100%;
+	background-size:30%;
+}
+#champs > div{
+	margin-bottom:40px;
+	overflow:hidden;
+	}
+.navbar-collapse {
+	padding:0;
+}
+.nav > li > a {
+    padding: 10px 2px;
+}
+.row {
+	margin:0;
+}
+}
+@media (min-width:992px) and (max-width:1199px) {
+.carousel-content {
+	width: 20%;
+	margin: 10px 1% 10px 3%;
+	padding: 10px 1%;
+}
+#champs > div{
+	margin-bottom:40px;
+	overflow:hidden;
+	}
+	.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
+}
+@media (min-width:1200px) {
+.carousel-content {
+	width: 20%;
+	margin: 10px 1% 10px 3%;
+	padding: 10px 1%;
+}
+#champs > div{
+	margin-bottom:40px;
+	overflow:hidden;
+	}
+	.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
+}

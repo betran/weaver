@@ -217,7 +217,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', end
 	}
 @media (max-width:767px) {
  .carousel-content {
- width:40%;
+ width:85%;
  margin:10px 2% 10px 4%;
  padding:10px 2%;
 }
@@ -242,7 +242,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', end
 	min-width:320px;
 	height:auto;
 	}
-	.navbar-collapse.in {
+.navbar-collapse.in {
 		overflow:visible;
 }
 .navbar-header{

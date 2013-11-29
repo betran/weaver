@@ -123,7 +123,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c900', end
 }
 #footer-nav{
 	padding-bottom:20px;
-	padding-top:20px;
 	}
 #footer-nav li {
 	float: left;
@@ -176,6 +175,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', end
 	}
 .navbar-default .navbar-collapse{
 	border:none;
+	}
+.listings > div > ul.nav, .listings > div >.nav li{
+	list-style-image:url(../img/list-ico.jpg);
+	list-style-position:outside;
+	}
+.listings .nav a, .resources-menu a{
+	color:#333333;
+	font-size:12px;
+	}
+.listings .nav a:hover{
+	color:#040404;
+	}
+#footer{
+	margin-top:50px;
+	}
+.bottom-tittle h4{
+	color:#ba0808;
+	text-transform:uppercase;
+	border-bottom:#cecece 1px solid;
+	padding-bottom:5px;
+	}
+.page-titles{
+	color:#ad3333;
+	text-transform:uppercase;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-bottom:5px;
+	}
+.avaters{
+	font-size:12px;
+	color:#999999;
+	text-align:center;
+	}
+.main-title{
+	color:#666666;
+	border-bottom:#cecece 1px solid;
+	font-size:24px;
+	padding-bottom:5px;
+	text-transform:uppercase;
 	}
 @media (max-width:767px) {
  .carousel-content {

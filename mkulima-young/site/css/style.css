@@ -1,5 +1,6 @@
 body {
-	background: #f8f8f8;
+	/*background: #f8f8f8;*/
+	background:#fff;
 }
 #wrapper {
 	padding: 0px;
@@ -121,6 +122,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c900', end
 	float: right;
 	margin-top: 70px;
 }
+.view-all{
+	background:#ba0808;
+	display:block;
+	float:right;
+	-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+color:#fff;
+padding:1px 7px;
+font-size:14px;
+	}
+.sprite-more {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background: url(../img/sprite.png) -326px -3px;
+	margin:0 5px;
+}
 #footer-nav{
 	padding-bottom:20px;
 	}
@@ -214,6 +233,71 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', end
 	font-size:24px;
 	padding-bottom:5px;
 	text-transform:uppercase;
+	}
+.event-date{
+	display:block;
+	width:52px;
+	float:left;
+	margin-right:10px;
+	text-align:center;
+	background:#333333;
+	color:#fff;
+	font-size:30px;
+	line-height:34px;
+	}
+.question-stats{
+	display:block;
+	width:74px;
+	float:left;
+	margin-right:10px;
+	text-align:center;
+	background:#eeeeee;
+	color:#808185;
+	font-size:16px;
+	}
+.my-list{
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	}
+.my-month{
+	background:#ba0808;
+	font-size:12px;
+	display:block;
+	padding:5px 0;
+	line-height:16px;
+	}
+.my-answer-count{
+	color:#ba0808;
+	font-size:14px;
+	display:block;
+	padding:0 0 5px 0;
+	}
+.my-list li{
+	float:left;
+	padding:10px 0;
+	border-bottom:#cecece 1px solid;
+}
+.my-list li:last-child{
+	border-bottom:none;
+}
+.my-question{
+	text-align:right;
+	}
+.my-question a{
+	color:#ad3333;
+}
+.my-register{
+	background:#9eab39;
+	display:block;
+	float:right;
+	color:#fff;
+	padding-left:5px;
+	}
+.my-register:hover, a:hover{
+	color:#000;
+	text-decoration:none;
 	}
 @media (max-width:767px) {
  .carousel-content {
@@ -324,5 +408,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', end
     position: relative;
     display: block;
     padding: 10px 10px;
+}
+.resources-menu > .nav > li > a, .listings .nav > li > a{
+    padding: 8px 0px;
 }
 }

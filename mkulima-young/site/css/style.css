@@ -148,7 +148,7 @@ font-size:14px;
 }
 #footer-nav li a {
 	color: #9eab39;
-	font-size: 12px;
+	font-size: 11px;
 	border-right: 1px #9eab39 solid;
 	padding: 0 9px;
 }
@@ -377,6 +377,40 @@ border-radius: 4px;
 	padding:5px;
 	margin:10px 0;
 	background:#ebebeb;
+	}
+#title-bar{
+	border-bottom:#cc0000 7px solid;
+	margin-bottom:10px;
+	}
+#title-bar > h3{
+	color:#fff;
+	background:#cc0000;
+	margin-bottom:0;
+	font-weight:normal;
+	}
+.home-ico{
+	display:block;
+	width:32px;
+	height:27px;
+	background:url(../img/sprite.png) no-repeat -70px -87px;
+	}
+.my-breadcrums{
+	list-style:none;
+	display:block;
+	width:100%;
+	min-height:27px;
+	margin:10px 0 0 0;
+	padding:0;
+	}
+.my-breadcrums li{
+	float:left;
+	padding:0 5px;
+	}
+.my-breadcrums li a{
+	color:#cccccc;
+	}
+.my-breadcrums li.active a{
+	color:#cc0000;
 	}
 
 @media (max-width:767px) {

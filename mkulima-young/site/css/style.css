@@ -8,6 +8,155 @@ body {
 	max-width: 1015px;
 	margin: 0px auto;
 }
+
+/*-------------------------- champions carousel----------------------*/
+#mainImg{
+	width:80%;
+	float:left;
+	height:auto;
+	max-height:295px;
+	overflow:hidden;
+	margin-bottom:20px;
+	}
+#championsCarousel{
+	width:20%;
+	float:left;
+	max-height:295px;
+	overflow:hidden;
+	margin-bottom:20px;
+	}
+#championsCarousel .carousel-control.right{
+	}
+#championsCarousel .carousel-control.left{
+	}
+
+#championsCarousel{
+	max-height:295px;
+	overflow:hidden;
+	}
+#championsCarousel .carousel-indicators .active {
+background-color: #fff !important;
+}
+
+#championsCarousel .carousel-control {
+position: absolute;
+top: 12% !important;
+left: 15px;
+width: 40px;
+height: 40px;
+margin-top: -38px !important;
+font-size: 30px !important;
+font-weight: 100;
+line-height: 44px !important;
+color: #FFF;
+text-align: center;
+background: #222;
+border: 3px solid #FFF;
+-webkit-border-radius: 23px;
+-moz-border-radius: 23px;
+border-radius: 23px;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+/* --------- END --------- */
+
+#championsCarousel .carousel {
+	margin-bottom: 0;
+	padding:40px 10px 40px 10px;
+}
+#championsCarousel-in > .carousel-indicators-bottom{
+	bottom:-5px;
+	left: 40%;
+	}
+#championsCarousel .carousel-control.right, #championsCarousel .carousel-control.left{
+	background:none;
+	border:none;
+	width:100%;
+	left:0;
+	}
+#championsCarousel .carousel-control.right {
+	right: -5px;
+}
+
+/*For top Indicator*/
+
+
+#championsCarousel .carousel-indicators-top {
+	top: auto;
+	bottom: 0px;
+}
+
+#championsCarousel .carousel-indicators-top li {
+	background: #fff;
+}
+
+#championsCarousel .carousel-indicators-top .active {
+background: #fff;
+
+}
+#championsCarousel .carousel-inner{
+	padding-left:3px;
+	}
+
+ /* vertical start*/
+
+#championsCarousel .vertical .carousel-inner {
+  height: 100%;
+}
+
+#championsCarousel .carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+#championsCarousel .carousel.vertical .active {
+  top: 0;
+}
+
+#championsCarousel .carousel.vertical .next {
+  top: 100%;
+}
+
+#championsCarousel .carousel.vertical .prev {
+  top: -100%;
+}
+
+#championsCarousel .carousel.vertical .next.left,
+#championsCarousel .carousel.vertical .prev.right {
+  top: 0;
+}
+
+#championsCarousel .carousel.vertical .active.left {
+  top: -100%;
+}
+
+#championsCarousel .carousel.vertical .active.right {
+  top: 100%;
+}
+
+#championsCarousel .carousel.vertical .item {
+    left: 0;
+}​
+#championsCarousel-in > ol.carousel-indicators, #championsCarousel-in > ol.carousel-indicators-top{
+	margin:0;
+	left:0px;
+	}
+#championsCarousel .item, #championsCarousel .thumbnail{
+	max-width:102px;
+	width:100%;
+	}
+#championsCarousel .thumbnail{
+	max-width:102px;
+	width:100%;
+	max-height:52px;
+	overflow:hidden;
+	padding-bottom:6px;
+	}
+
 #logo {
 	float: left;
 	/*	height: 68px;
@@ -374,7 +523,7 @@ border-radius: 4px;
 	margin:30px 0px 10px 0px;
 	}
 /************** product page ******************/
-#product img{
+#product > img{
 	max-width:40%;
 	float:left;
 	margin-right:10px;

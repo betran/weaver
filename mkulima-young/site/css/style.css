@@ -533,6 +533,13 @@ border-radius: 4px;
 	color:#cc0000;
 	font-style:italic;
 	}
+/************** contact page ******************/
+#contact{
+color:#999999;
+}
+#contact .form-control{
+	border-radius:0;
+	}
 .share-widget{
 	color:#cc0000;
 	display:block;

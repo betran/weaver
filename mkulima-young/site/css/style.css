@@ -540,6 +540,35 @@ color:#999999;
 #contact .form-control{
 	border-radius:0;
 	}
+#gallery img{
+	min-width:100%;
+	height:auto;
+	}
+#gallery .row > div > div{
+		margin-bottom:22px;
+		position:relative;
+		height:225px;
+		overflow:hidden;
+		background:#93002c;
+		}
+.gallery-caption{
+	position:absolute;
+	z-index:100;
+	background:url(../img/gallery-caption-bg.png);
+	bottom:0;
+	padding:0px 2%;
+	width:100%;
+	}
+.gallery-caption p{
+	color:#fff;
+	font-size:11px;
+	line-height:13px;
+	}
+.gallery-caption h6{
+	color:#333333;
+	font-size:14px;
+	line-height:16px;
+	}
 .share-widget{
 	color:#cc0000;
 	display:block;

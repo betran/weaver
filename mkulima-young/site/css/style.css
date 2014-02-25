@@ -618,6 +618,10 @@ color:#999999;
 #resources h4{
 	font-weight:500;
 	}
+#questions-holder div{
+	margin:8px 0;
+	float:left;
+	}
 
 @media (max-width:767px) {
  .carousel-content {

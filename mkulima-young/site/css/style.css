@@ -619,6 +619,70 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdcdc', end
 	border-bottom:1px solid #cecece;
 	padding-bottom:10px;
 	}
+/*--------------- login ----------------*/
+.login{
+	font-size:12px;
+	}
+.login h4{
+	color:#cc0000;
+	font-size:15px;
+	}
+#login-sidebar h4{
+	color:#cc0000;
+	font-size:15px;
+	}
+#login-sidebar, #login-sidebar a{
+	font-size:11px;
+	}
+#login-sidebar > a{
+	color:#cc0000;
+	}
+
+#login-sidebar h5{
+	color:#669a00;
+}
+#login-sidebar ul{
+	margin:5px 0;
+	padding:0 10px;
+	}
+#login-sidebar li{
+	list-style:none;
+	background:url(../img/li-arrow.jpg) no-repeat 0 center;
+	margin:0;
+	padding:0 9px;
+	}
+.register-btn {
+	
+	background: #9cae0a; /* Old browsers */
+	background: -moz-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9cae0a), color-stop(100%, #bdd500)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #9cae0a 0%, #bdd500 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #9cae0a 0%, #bdd500 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', endColorstr='#bdd500', GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 11px;
+	display: inline-block;
+	font-weight:bold;
+	
+}
+.go-arrow{
+	background: url(../img/go-arrow.png) no-repeat;
+	display:inline-block;
+	width:5px;
+	height:10px;
+	margin:2px 0 0 10px;
+	}
+#login-panel{
+	background:#fbfafa;
+	padding-top:10px;
+	margin:10px 0 90px 0;
+	}
 @media (max-width:767px) {
 .carousel-content {
 	width: 85%;
@@ -666,6 +730,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdcdc', end
 #footer-nav li a {
 	font-size: 9px;
 }
+
 }
 @media (min-width:768px) and (max-width:991px) {
 #newsletter-subscribe {

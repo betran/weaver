@@ -606,6 +606,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdcdc', end
 	padding:0 10px 10px;
 	margin-bottom:20px;
 	}
+
 .trending .nav > li > a {
 	margin:0;
 	padding:3px 0;
@@ -618,6 +619,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdcdc', end
 	padding:0 0 0 10px;
 	border-bottom:#CCC 1px solid;
 	}
+.nav > li:last-child{
+	border:none;
+}
 /*----------------- Search -----------------*/
 .search-count {
 	display: inline-block;

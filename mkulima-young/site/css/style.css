@@ -158,12 +158,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	width: 59%;
 	padding: 0;
 }*/
-#main-nav ul li {
+#main-nav ul > li {
 	float: left;
 	text-align: center;
+		border:none;
+	background:none;
 	border-right: #999999 1px solid;
 	padding: 10px 0;
 	min-height: 80px;
+	
 }
 #main-nav ul li a {
 	color: #000;
@@ -714,7 +717,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cae0a', end
 	margin-bottom: 40px;
 	overflow: hidden;
 }
-#main-nav ul.navbar-nav li {
+#main-nav ul.navbar-nav > li {
 	border: none;
 	border-bottom: 1px solid rgb(153, 153, 153);
 	width: 95%;
